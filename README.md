@@ -4,7 +4,7 @@ Módulo Terraform que utiliza o "Maintenance Window", um recurso do System Manag
 
 1. Crie uma função IAM para permitir a comunicação entre as instâncias EC2 e o System Manager.
 2. Crie um Resource Group com base na tag associada às instâncias EC2.
-3. [Acesse o Registry Module do Terraform](https://registry.terraform.io/modules/paulodisfarce/ssm-EC2StopStart/aws/latest), vá para "Provision Instructions", e copie o módulo "SSM-EC2StopStart/aws".
+3. [Acesse o Registry Module do Terraform](https://registry.terraform.io/modules/ClaxtonOps/SSM-EC2StopStart/aws/latest), vá para "Provision Instructions", e copie o módulo "SSM-EC2StopStart/aws".
 4. Dentro do escopo do módulo "SSM-EC2StopStart/aws", defina as variáveis obrigatórias listadas em INPUTS na documentação do Terraform.
 5. Depois de configurar o módulo, utilize os comandos básicos do Terraform (init, plan, apply) para deploy.
 
